@@ -8,8 +8,8 @@
             "type": "chrome",
             "request": "launch",
             "name": "Build & Launch",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}",
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}/build",
             "preLaunchTask": "Build and Start",
             "postDebugTask": "Kill Server"
         },
@@ -17,8 +17,8 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}",
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}/build",
             "preLaunchTask": "Build and Start",
             "postDebugTask": "Kill Server"
         }
