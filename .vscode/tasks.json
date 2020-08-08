@@ -17,7 +17,7 @@
             "label": "Build Project",
             "type": "shell",
             "windows": {
-                "command": "./tools/build.bat"
+                "command": ".\\tools\\build.bat"
             },
             "problemMatcher": [],
             "group": {
@@ -29,14 +29,14 @@
             "label": "Start Server",
             "type": "shell",
             "windows": {
-                "command": "./.vscode/dbg/dbgServerStart.bat"
+                "command": ".\\.vscode\\dbg\\dbgServerStart.bat"
             }
         },
         {
             "label": "Kill Server",
             "type": "shell",
             "windows": {
-                "command": "./.vscode/dbg/dbg/dbgServerKill.bat"
+                "command": ".\\.vscode\\dbg\\dbgServerKill.bat"
             }
         }
     ]
