@@ -1,1 +1,3 @@
+tools/* linguist-detectable=false
 build/* linguist-detectable=false
+build/lib/* linguist-detectable=false
