@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>Conti.Dust</title>
-        <link rel="stylesheet" href="index.css">
-        <script type="module" src="lib/three.module.js"></script>
-        <script type="module" src="conti.js"></script>
+        <script src="conti.js"></script>
     </head>
-    <body>
-        <input id="fileInput" type="file"/>
+    <body onload="init()">
+        <input id="fileInput" type="file" oninput="fileUpload()"/>
+        <br/>
+        <canvas id="canvas" width="510px", height="510px"> 
     </body>
 </html>
