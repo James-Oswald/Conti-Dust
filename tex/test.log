@@ -1,0 +1,469 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.11)  11 AUG 2020 09:06
+entering extended mode
+**./test.tex
+(test.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+(D:\Software\MikTex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(D:\Software\MikTex\tex/latex/base\size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(D:\Software\MikTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(D:\Software\MikTex\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(D:\Software\MikTex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen135
+))
+(D:\Software\MikTex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(D:\Software\MikTex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks16
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks17
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(D:\Software\MikTex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(D:\Software\MikTex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(D:\Software\MikTex\tex/latex/accsupp\accsupp.sty
+Package: accsupp 2019/12/05 v0.6 Accessibility support by marked content (HO)
+
+(D:\Software\MikTex\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(D:\Software\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(D:\Software\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(D:\Software\MikTex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(D:\Software\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(D:\Software\MikTex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(D:\Software\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(D:\Software\MikTex\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(D:\Software\MikTex\tex/latex/accsupp\accsupp-pdftex.def
+File: accsupp-pdftex.def 2019/12/05 v0.6 accsupp driver for pdfTeX (HO)
+))
+(D:\Software\MikTex\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count188
+
+(D:\Software\MikTex\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip52
+
+(D:\Software\MikTex\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count189
+)
+(D:\Software\MikTex\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(D:\Software\MikTex\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip53
+\skiplinenumber=\skip54
+\skiprule=\skip55
+\skiphlne=\skip56
+\skiptext=\skip57
+\skiplength=\skip58
+\algomargin=\skip59
+\skipalgocfslide=\skip60
+\algowidth=\dimen144
+\inoutsize=\dimen145
+\inoutindent=\dimen146
+\interspacetitleruled=\dimen147
+\interspacealgoruled=\dimen148
+\interspacetitleboxruled=\dimen149
+\algocf@ruledwidth=\skip61
+\algocf@inoutbox=\box47
+\algocf@inputbox=\box48
+\AlCapSkip=\skip62
+\AlCapHSkip=\skip63
+\algoskipindent=\skip64
+\algocf@nlbox=\box49
+\algocf@hangingbox=\box50
+\algocf@untilbox=\box51
+\algocf@skipuntil=\skip65
+\algocf@capbox=\box52
+\algocf@lcaptionbox=\skip66
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count190
+\c@algocfproc=\count191
+\c@algocf=\count192
+\algocf@algoframe=\box53
+\algocf@algobox=\box54
+)
+(D:\Software\MikTex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks21
+\float@box=\box55
+\@float@everytoks=\toks22
+\@floatcapt=\box56
+)
+(D:\Software\MikTex\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(D:\Software\MikTex\tex/latex/caption\caption.sty
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+(D:\Software\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count194
+\c@continuedfloat=\count195
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count196
+\sf@farskip=\skip71
+\sf@captopadj=\dimen157
+\sf@capskip=\skip72
+\sf@nearskip=\skip73
+\c@subfigure=\count197
+\c@subfigure@save=\count198
+\c@lofdepth=\count199
+\c@subtable=\count266
+\c@subtable@save=\count267
+\c@lotdepth=\count268
+\sf@top=\skip74
+\sf@bottom=\skip75
+)
+(D:\Software\MikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\Software\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\Software\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\Software\MikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\Software\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(D:\Software\MikTex\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip76
+\f@nch@O@elh=\skip77
+\f@nch@O@erh=\skip78
+\f@nch@O@olh=\skip79
+\f@nch@O@orh=\skip80
+\f@nch@O@elf=\skip81
+\f@nch@O@erf=\skip82
+\f@nch@O@olf=\skip83
+\f@nch@O@orf=\skip84
+)
+(D:\Software\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count269
+\l__pdf_internal_box=\box57
+) (test.aux)
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(D:\Software\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count270
+\scratchdimen=\dimen160
+\scratchbox=\box58
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen161
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks24
+) (D:\Software\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+
+
+(D:\Software\MikTex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+
+
+(D:\Software\MikTex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/James/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Overfull \hbox (5.94122pt too wide) in paragraph at lines 46--46
+[]\OT1/cmr/bx/n/14.4 Formalizing a Bi-nary Di-graph Gen-er-a-tor Al-go-rithm 
+ []
+
+<images/TheRepublic.png, id=15, 511.9125pt x 511.9125pt>
+File: images/TheRepublic.png Graphic file (type png)
+<use images/TheRepublic.png>
+Package pdftex.def Info: images/TheRepublic.png  used on input line 74.
+(pdftex.def)             Requested size: 127.97781pt x 127.97781pt.
+<images/AliceInWonderLand.png, id=17, 511.9125pt x 511.9125pt>
+File: images/AliceInWonderLand.png Graphic file (type png)
+<use images/AliceInWonderLand.png>
+Package pdftex.def Info: images/AliceInWonderLand.png  used on input line 77.
+(pdftex.def)             Requested size: 127.97781pt x 127.97781pt.
+<images/TheBible.png, id=18, 511.9125pt x 511.9125pt>
+File: images/TheBible.png Graphic file (type png)
+<use images/TheBible.png>
+Package pdftex.def Info: images/TheBible.png  used on input line 80.
+(pdftex.def)             Requested size: 127.97781pt x 127.97781pt.
+
+Overfull \hbox (17.4332pt too wide) in paragraph at lines 74--81
+ [][][][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2 <./images/TheRepublic.png> <./images/AliceInWonderLand.png> <./images/TheBib
+le.png>]
+<images/RepublicZoom.png, id=29, 531.48563pt x 456.20438pt>
+File: images/RepublicZoom.png Graphic file (type png)
+<use images/RepublicZoom.png>
+Package pdftex.def Info: images/RepublicZoom.png  used on input line 90.
+(pdftex.def)             Requested size: 239.16632pt x 205.29005pt.
+
+Overfull \hbox (5.16394pt too wide) in paragraph at lines 90--91
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
+\OT1/cmr/m/n/12 our case, char-ac-ters) that gave rise to them.
+ []
+
+
+Overfull \hbox (22.11227pt too wide) in paragraph at lines 86--109
+[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--109
+
+ []
+
+[3 <./images/RepublicZoom.png>]
+<images/exe.png, id=34, 511.9125pt x 511.9125pt>
+File: images/exe.png Graphic file (type png)
+<use images/exe.png>
+Package pdftex.def Info: images/exe.png  used on input line 119.
+(pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
+<images/wav.png, id=35, 511.9125pt x 511.9125pt>
+File: images/wav.png Graphic file (type png)
+<use images/wav.png>
+Package pdftex.def Info: images/wav.png  used on input line 123.
+(pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
+<images/gif.png, id=36, 511.9125pt x 511.9125pt>
+File: images/gif.png Graphic file (type png)
+<use images/gif.png>
+Package pdftex.def Info: images/gif.png  used on input line 131.
+(pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
+<images/webm.png, id=37, 511.9125pt x 511.9125pt>
+File: images/webm.png Graphic file (type png)
+<use images/webm.png>
+Package pdftex.def Info: images/webm.png  used on input line 135.
+(pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
+ [4 <./images/exe.png> <./images/wav.png> <./images/gif.png> <./images/webm.png
+>] [5]
+<images/biblePDD.png, id=48, 511.9125pt x 511.9125pt>
+File: images/biblePDD.png Graphic file (type png)
+<use images/biblePDD.png>
+Package pdftex.def Info: images/biblePDD.png  used on input line 193.
+(pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
+<images/wavPDD.png, id=49, 511.9125pt x 511.9125pt>
+File: images/wavPDD.png Graphic file (type png)
+<use images/wavPDD.png>
+Package pdftex.def Info: images/wavPDD.png  used on input line 197.
+(pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
+<images/exePPD.png, id=50, 511.9125pt x 511.9125pt>
+File: images/exePPD.png Graphic file (type png)
+<use images/exePPD.png>
+Package pdftex.def Info: images/exePPD.png  used on input line 202.
+(pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
+<images/zip.png, id=51, 511.9125pt x 511.9125pt>
+File: images/zip.png Graphic file (type png)
+<use images/zip.png>
+Package pdftex.def Info: images/zip.png  used on input line 206.
+(pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
+<images/bmp.png, id=52, 511.9125pt x 511.9125pt>
+File: images/bmp.png Graphic file (type png)
+<use images/bmp.png>
+Package pdftex.def Info: images/bmp.png  used on input line 211.
+(pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
+<images/msi.png, id=53, 511.9125pt x 511.9125pt>
+File: images/msi.png Graphic file (type png)
+<use images/msi.png>
+Package pdftex.def Info: images/msi.png  used on input line 215.
+(pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
+ [6]
+Overfull \vbox (19.2949pt too high) has occurred while \output is active []
+
+
+[7 <./images/biblePDD.png> <./images/wavPDD.png> <./images/exePPD.png> <./image
+s/zip.png> <./images/bmp.png> <./images/msi.png>] [8] (test.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5447 strings out of 481212
+ 81602 string characters out of 2918089
+ 328093 words of memory out of 3000000
+ 20951 multiletter control sequences out of 15000+200000
+ 545156 words of font info for 67 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 47i,15n,50p,628b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\James\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Softw
+are/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Software/MikTex/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><D:/Software/MikTex/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Software/MikTe
+x/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Software/MikTex/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/
+MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Software/MikTex/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b>
+Output written on test.pdf (8 pages, 1529122 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

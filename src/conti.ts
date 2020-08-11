@@ -35,7 +35,7 @@ function newData(data: Uint8Array):void{
     let tempCanvas = <HTMLCanvasElement>document.createElement("Canvas");
     tempCanvas.setAttribute("width", "255px");
     tempCanvas.setAttribute("height", "255px");
-    document.body.append(tempCanvas);
+    //document.body.append(tempCanvas);
     (<CanvasRenderingContext2D>tempCanvas.getContext("2d")).putImageData(id, 0, 0);
     canvas.scale(2, 2);
     canvas.drawImage(tempCanvas, 0, 0);
