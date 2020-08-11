@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.11)  11 AUG 2020 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.11)  11 AUG 2020 14:57
 entering extended mode
 **./test.tex
 (test.tex
@@ -319,17 +319,17 @@ Overfull \hbox (5.94122pt too wide) in paragraph at lines 46--46
 []\OT1/cmr/bx/n/14.4 Formalizing a Bi-nary Di-graph Gen-er-a-tor Al-go-rithm 
  []
 
-<images/TheRepublic.png, id=15, 511.9125pt x 511.9125pt>
+<images/TheRepublic.png, id=16, 511.9125pt x 511.9125pt>
 File: images/TheRepublic.png Graphic file (type png)
 <use images/TheRepublic.png>
 Package pdftex.def Info: images/TheRepublic.png  used on input line 74.
 (pdftex.def)             Requested size: 127.97781pt x 127.97781pt.
-<images/AliceInWonderLand.png, id=17, 511.9125pt x 511.9125pt>
+<images/AliceInWonderLand.png, id=18, 511.9125pt x 511.9125pt>
 File: images/AliceInWonderLand.png Graphic file (type png)
 <use images/AliceInWonderLand.png>
 Package pdftex.def Info: images/AliceInWonderLand.png  used on input line 77.
 (pdftex.def)             Requested size: 127.97781pt x 127.97781pt.
-<images/TheBible.png, id=18, 511.9125pt x 511.9125pt>
+<images/TheBible.png, id=19, 511.9125pt x 511.9125pt>
 File: images/TheBible.png Graphic file (type png)
 <use images/TheBible.png>
 Package pdftex.def Info: images/TheBible.png  used on input line 80.
@@ -350,30 +350,25 @@ le.png>]
 <images/RepublicZoom.png, id=29, 531.48563pt x 456.20438pt>
 File: images/RepublicZoom.png Graphic file (type png)
 <use images/RepublicZoom.png>
-Package pdftex.def Info: images/RepublicZoom.png  used on input line 90.
+Package pdftex.def Info: images/RepublicZoom.png  used on input line 91.
 (pdftex.def)             Requested size: 239.16632pt x 205.29005pt.
 
-Overfull \hbox (5.16394pt too wide) in paragraph at lines 90--91
+Overfull \hbox (5.16394pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
-\OT1/cmr/m/n/12 our case, char-ac-ters) that gave rise to them.
+Overfull \hbox (39.73709pt too wide) in paragraph at lines 89--110
+[]$[]$  $[]$
  []
 
 
-Overfull \hbox (22.11227pt too wide) in paragraph at lines 86--109
-[]$  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
+Underfull \hbox (badness 10000) in paragraph at lines 89--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--109
+Underfull \hbox (badness 10000) in paragraph at lines 89--110
 
  []
 
@@ -381,65 +376,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--109
 <images/exe.png, id=34, 511.9125pt x 511.9125pt>
 File: images/exe.png Graphic file (type png)
 <use images/exe.png>
-Package pdftex.def Info: images/exe.png  used on input line 119.
+Package pdftex.def Info: images/exe.png  used on input line 120.
 (pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
 <images/wav.png, id=35, 511.9125pt x 511.9125pt>
 File: images/wav.png Graphic file (type png)
 <use images/wav.png>
-Package pdftex.def Info: images/wav.png  used on input line 123.
+Package pdftex.def Info: images/wav.png  used on input line 124.
 (pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
 <images/gif.png, id=36, 511.9125pt x 511.9125pt>
 File: images/gif.png Graphic file (type png)
 <use images/gif.png>
-Package pdftex.def Info: images/gif.png  used on input line 131.
+Package pdftex.def Info: images/gif.png  used on input line 132.
 (pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
 <images/webm.png, id=37, 511.9125pt x 511.9125pt>
 File: images/webm.png Graphic file (type png)
 <use images/webm.png>
-Package pdftex.def Info: images/webm.png  used on input line 135.
+Package pdftex.def Info: images/webm.png  used on input line 136.
 (pdftex.def)             Requested size: 179.17206pt x 179.17206pt.
  [4 <./images/exe.png> <./images/wav.png> <./images/gif.png> <./images/webm.png
 >] [5]
 <images/biblePDD.png, id=48, 511.9125pt x 511.9125pt>
 File: images/biblePDD.png Graphic file (type png)
 <use images/biblePDD.png>
-Package pdftex.def Info: images/biblePDD.png  used on input line 193.
+Package pdftex.def Info: images/biblePDD.png  used on input line 194.
 (pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
 <images/wavPDD.png, id=49, 511.9125pt x 511.9125pt>
 File: images/wavPDD.png Graphic file (type png)
 <use images/wavPDD.png>
-Package pdftex.def Info: images/wavPDD.png  used on input line 197.
+Package pdftex.def Info: images/wavPDD.png  used on input line 198.
 (pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
 <images/exePPD.png, id=50, 511.9125pt x 511.9125pt>
 File: images/exePPD.png Graphic file (type png)
 <use images/exePPD.png>
-Package pdftex.def Info: images/exePPD.png  used on input line 202.
+Package pdftex.def Info: images/exePPD.png  used on input line 203.
 (pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
 <images/zip.png, id=51, 511.9125pt x 511.9125pt>
 File: images/zip.png Graphic file (type png)
 <use images/zip.png>
-Package pdftex.def Info: images/zip.png  used on input line 206.
+Package pdftex.def Info: images/zip.png  used on input line 207.
 (pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
 <images/bmp.png, id=52, 511.9125pt x 511.9125pt>
 File: images/bmp.png Graphic file (type png)
 <use images/bmp.png>
-Package pdftex.def Info: images/bmp.png  used on input line 211.
+Package pdftex.def Info: images/bmp.png  used on input line 212.
 (pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
 <images/msi.png, id=53, 511.9125pt x 511.9125pt>
 File: images/msi.png Graphic file (type png)
 <use images/msi.png>
-Package pdftex.def Info: images/msi.png  used on input line 215.
+Package pdftex.def Info: images/msi.png  used on input line 216.
 (pdftex.def)             Requested size: 168.93164pt x 168.93164pt.
  [6]
 Overfull \vbox (19.2949pt too high) has occurred while \output is active []
 
 
 [7 <./images/biblePDD.png> <./images/wavPDD.png> <./images/exePPD.png> <./image
-s/zip.png> <./images/bmp.png> <./images/msi.png>] [8] (test.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+s/zip.png> <./images/bmp.png> <./images/msi.png>] [8] (test.aux) ) 
 Here is how much of TeX's memory you used:
  5447 strings out of 481212
  81602 string characters out of 2918089
@@ -447,21 +438,21 @@ Here is how much of TeX's memory you used:
  20951 multiletter control sequences out of 15000+200000
  545156 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,15n,50p,628b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\James\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Softw
-are/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Software/MikTex/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><D:/Software/MikTex/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-<D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Software/MikTe
-x/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Software/MikTex/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr
-6.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/
-MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Software/MikTex/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/
-cm/cmti12.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b>
-Output written on test.pdf (8 pages, 1529122 bytes).
+ 47i,15n,50p,627b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ja
+mes\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/Sof
+tware/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Software/MikTex/font
+s/type1/public/amsfonts/cm/cmex10.pfb><D:/Software/MikTex/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Software/Mi
+kTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Software/MikTex/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Softw
+are/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/MikTex/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><D:/Software/MikTex/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><D:/Software/MikTex/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+D:/Software/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on test.pdf (8 pages, 1530400 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

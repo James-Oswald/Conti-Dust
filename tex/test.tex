@@ -25,7 +25,7 @@ The work of Sergey Bratus and Greg Conti in Digraph data visualization for binar
 
 \section{Binary Digraphs}
 \subsection{Formalization of The Core Concept}
-Bratus et al. posit that even binary data we expect to be unstructured or random is in fact structured in a way we wouldn't expect. The key idea is that each byte $b_k$ in a byte sequence $B$ of length $n$ has an implicit binary relation with the byte following it, $b_{k+1}$. We can define this relation in set builder notation as: 
+Bratus \textit{et al.} posit that even binary data we expect to be unstructured or random is in fact structured in a way we wouldn't expect. The key idea is that each byte $b_k$ in a byte sequence $B$ of length $n$ has an implicit binary relation with the byte following it, $b_{k+1}$. We can define this relation in set builder notation as: 
 \[
 R = \{(b_k, b_{k+1})|b_k\in B \wedge k<n\} \tag{2.1} \label{Rel}
 \]
@@ -63,7 +63,7 @@ $M = \textbf{0}_{256\times256}$\;
 It is trivially proved that this algorithm is $\mathcal{O}(n)$ 
 
 \subsection{Visualizing Binary Digraphs}
-By taking our binary matrix $M$ and converting it to a bitmap such that 0 is black and 1 is red, We can instantly see shocking artifacts that allow us to distinguish the type of data we're looking at.
+By taking our binary matrix $M$ and converting it to a bitmap such that 0 is black and 1 is red, we can instantly see shocking artifacts that allow us to distinguish the type of data we're looking at.
 
 For these first three binary digraphs, I have converted three full books into byte strings and applied algorithm 1 generating the following bitmaps:
 
@@ -83,12 +83,13 @@ For these first three binary digraphs, I have converted three full books into by
 \end{figure}
 
 \pagebreak
-The obvious question that comes to mind when viewing these digraphs is: Why do all 3 of these completely different books have very similar digraphs? The answer lies in ASCII encoding, these pasterns are the result of the relationship between subsequent ASCII characters. This can be broken down if we zoom in and begin classifying regions based on the sequence of bytes (or in our case, characters) that gave rise to them. 
-\linebreak
+The obvious question that comes to mind when viewing these digraphs is: Why do all 3 of these completely different books have very similar digraphs? The answer lies in ASCII encoding: these patterns are the result of the relationship between subsequent ASCII characters. This can be broken down if we zoom in and begin classifying regions based on the sequence of bytes (or in our case, characters) that gave rise to them. 
+
+
 \begin{minipage}{0.6\textwidth}
 	\begin{figure}[H]
 		\includegraphics[scale=0.45]{images/RepublicZoom.png} 
-		\caption{Digraph of Plato's The Republic}
+		\caption{Digraph of The Republic}
 	\end{figure}
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
@@ -105,12 +106,12 @@ The obvious question that comes to mind when viewing these digraphs is: Why do a
 	\end{itemize}
 \end{minipage}
 \linebreak\linebreak\linebreak
-Notice that this produces results that are intuitively easy to understand as well, we would expect an English book to be primarily composed of mostly lowercase letters followed by lowercase letters, while we would expect no lowercase letters followed by uppercase letters, which is exactly what we see in section 4. 
+Notice that this produces results that are intuitively easy to understand as well; we would expect an English book to be primarily composed of mostly lowercase letters followed by lowercase letters, while we would expect no lowercase letters followed by uppercase letters, which is exactly what we see in figure 2. 
 
 \pagebreak
 \begin{samepage}
 \subsection{Limitations of Binary Digraphs}
-In the last section we looked at Digraphs of text data, In this section we'll explore Digraphs of more types of data and see the limitations of binary digraphs. 
+In the last section we looked at Digraphs of text data, in this section we'll explore digraphs of more types of data and see the limitations of binary digraphs. 
 \begin{figure}[!h]
     \centering
     \subfloat[Digraph of a .exe (Machine Code Data)]{
@@ -138,15 +139,15 @@ In the last section we looked at Digraphs of text data, In this section we'll ex
 \end{samepage}
 \pagebreak
 
-These binary digraphs give us lots of insight into the intrinsic structure of this data and let us analyze entire files from just these snapshots. An analysis of \ref{Sp1} shows characteristic striping which is present in digraphs of all kinds of machine code, we also see the ascii regions are extra dense, so we can infer that there are a lot of embedded strings within this exe file. An analysis of \ref{Sp2} reveals yet another striking pattern produced by the digraph, characteristic of uncompressed audio data. 
+These binary digraphs give us much insight into the intrinsic structure of this data and let us analyze entire files from just these snapshots. An analysis of \ref{Sp1} shows characteristic striations which are present in digraphs of all kinds of machine code; we also see the ASCII regions are extra dense, so we can infer that there are a many embedded strings within this exe file. An analysis of \ref{Sp2} reveals yet another striking pattern produced by the digraph, characteristic of uncompressed audio data. 
 
-\ref{De1} and \ref{De2} are where the usefulness of binary digraphs begin to run out, while \ref{De1} still shows a semblance of structure characteristic to compressed image data, the Digraph in \ref{De2} is so dense that it provides us with no meaningful structure, only letting us know that the data is compressed. 
+Figures \ref{De1} and \ref{De2} show where the usefulness of binary digraphs begin to run out; while \ref{De1} still shows a semblance of structure characteristic to compressed image data, the digraph in \ref{De2} is so dense that it provides us with no meaningful structure, only letting us know that the data is compressed. 
 
 \section{Positive Discrete Digraphs}
 \subsection{Surpassing Binary Digraphs with Positive Discrete Digraphs}
-In order to remedy this issue, I have developed what I will refer to as positive discrete digraphs to preserve more information and hence allow for better visualization. Rather then entires of the matrix $M$ being restricted to the set $\{0, 1\}$ as was the case with binary digraphs, I restrict entries to the non-negative integers $\mathbb{Z}^{\ast}$. The entries in the new matrix now represent the "count" of a sequential pair in $B$. In other words $M_{ij}$ is now the number of times $(b_i, b_j)$ appears in $R$
+In order to remedy this issue, I have developed what I will refer to as positive discrete digraphs to preserve more information and hence allow for better visualization. Rather then entires of the matrix $M$ being restricted to the set $\{0, 1\}$ as was the case with binary digraphs, I restrict entries to the non-negative integers $\mathbb{Z}^{\ast}$. The entries in the new matrix now represent the "count" of a sequential pair in $B$. In other words $M_{ij}$ is now the number of times $(b_i, b_j)$ appears in $R$.
 \subsection{Positive Discrete Digraph Generator Algorithm}
-The algorithm is fundamentally the same as the Digraph Algorithm  but we add one to the entry instead of setting it to one. 
+The algorithm is fundamentally the same as the digraph algorithm  but we add one to the entry instead of setting it to one. 
 \begin{algorithm}
 \DontPrintSemicolon
 \SetKwInOut{Input}{input}
@@ -164,7 +165,7 @@ $M = \textbf{0}_{256\times256}$\;
 It is trivially proved that this algorithm is $\mathcal{O}(n)$ 
 \subsection{Visualizing Positive Discrete Digraphs}
 \subsubsection{Post-Processing Algorithm}
-Unfortunately, coloring a bitmap solely from the positive discrete digraph alone produces lack luster results and doesn't show off the full potential of the information stored within the the positive discrete digraph. To get around this, I apply a post-processing algorithm that uses the median of the vectorization of the positive discrete digraph to help "center" the data for better viability. I then use this "centered" data to generate a bitmap, MAP, which for the purpose of this algorithm, will be a 256 by 256 matrix of 3-tuples representing RGB color channels who's values are integers between 0 and 255. 
+Unfortunately, coloring a bitmap solely from the positive discrete digraph alone produces lackluster results and doesn't show off the full potential of the information stored within the the positive discrete digraph. To get around this, I apply a post-processing algorithm that uses the median of the vectorization of the positive discrete digraph to help "center" the data for better viability. I then use this "centered" data to generate a bitmap, MAP, which for the purpose of this algorithm, will be a 256 by 256 matrix of 3-tuples representing RGB color channels who's values are integers between 0 and 255. 
 
 \begin{algorithm}
 \DontPrintSemicolon
@@ -219,19 +220,19 @@ MAP = $\begin{bmatrix}(0,0,0)_{0,0} & \ldots & (0,0,0)_{255,0}\\\vdots &\ddots&\
 
 \subsubsection{Analysis of PDD Results}
 Under the new light provided by positive discrete digraphs with post processing, we can see structure 
-that was previously hidden. In fact, \ref{PDD3}, \ref{PDD4}, \ref{PDD6}, would all look the same when seen from a binary digraph bitmap, but using positive discrete digraphs we can see that all 3 actually have wildly different structures. 
+that was previously hidden. In fact, \ref{PDD3}, \ref{PDD4}, \ref{PDD6}, would all look the same when seen from a binary digraph bitmap, but using positive discrete digraphs we can see that all three actually have wildly different structures. 
 
-Upon re-analyzing \ref{PDD1} we see exactly what we expected from the ascii data, The red coloration in the (lowercase, lowercase) region tells us that all of these sequences occurred well above the median, while other regions were closer to the median and thus appear purple.
+Upon re-analyzing \ref{PDD1} we see exactly what we expected from the ascii data, the red coloration in the (lowercase, lowercase) region tells us that all of these sequences occurred well above the median, while other regions were closer to the median and thus appear purple.
 
 Re-analyzing \ref{PDD2} we see a bit more structure appear around the edges, however its easy to forget that the lack of real definition in the form of reds and blues is a sign that all central sequences appear at the same relative frequency, which itself is an important structural insight gained through  a PDD bitmap.
 
 \ref{PDD3} is a large x86 machine code file (a windows .exe) that contains the telltale machine code striations discussed in section 2.4. Its also good to note that none of these would have been visible on a binary digraph and this would have looked identical to the .gif file in image \ref{De2}.
 
-\ref{PDD4} is a 300MB zip file, it makes sense that every spot would be filled with that many bytes, but it has a surprising structure that much like \ref{PDD3} would not have been seen without the PDD bitmap.
+\ref{PDD4} is a 300MB zip file; it makes sense that every spot would be filled with that many bytes, but it has a surprising structure that, much like \ref{PDD3}, would not have been seen without the PDD bitmap.
 
 \ref{PDD5} is a bitmap file storing raw image data, the diagonal stripe in the center is indicative of subsequent bytes having a similar value.
 
-\ref{PDD6} is perhaps the most interesting digraph yet. It's a Windows Installer file, and it looks like a combination of \ref{PDD1}, \ref{PDD3}, \ref{PDD4}, \ref{PDD5}, and that's because it is. We can infer from the digraph that it contains alot of bitmaps from the red streak down the center, a lot of ascii data from the squares in the top right, and machine code from the heavy parallel striations. 
+\ref{PDD6} is perhaps the most interesting digraph yet. It is a Windows Installer file, and it looks like a combination of \ref{PDD1}, \ref{PDD3}, \ref{PDD4}, \ref{PDD5}-- and that's because it is. We can infer from the digraph that it contains many bitmaps from the red streak down the center, a lot of ascii data from the squares in the top right, and machine code from the heavy parallel striations. 
 
 
 
