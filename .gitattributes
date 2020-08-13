@@ -2,3 +2,4 @@ tools/* linguist-detectable=false
 build/* linguist-detectable=false
 build/lib/* linguist-detectable=false
 src/lib/* linguist-detectable=false
+tex linguist-detectable=false
